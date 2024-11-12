@@ -1,0 +1,21 @@
+a varosok.csv (UTF-8 BOM) a Föld legnagyobb városinak atatait tartalmazza. Az állomány első sora fejlécelemeket tartalmaz. A file egy sora pl:
+Tokió;Japán;38,001000
+
+az adattagok jelentése rendre:
+* város neve
+* ország neve
+* (agglomerációs) népesség millió főben
+
++ készíts osztályt ami egy nagyváros reprezentálására szolgál
++ készítsd el a ToString override-ot, amiben megjelenik minden adattag (a lakosság 2 tizedes jegyre kerekítve)
++ olvasd be a file tartalmát egy objektumokat tartalmazó kollekcióba
++ írd ki a konzolra a kollekció hosszát
+
+LINQ alkalmazásával határozd meg a kövekező adatokat, az eredményt jelenítsd meg a konzolon:
+
+1) hány millió fő él összesen kínai nagyvárosokban?
+2) mekkora az indiai nagyvárosok átlaglélekszáma?
+3) melyik nagyváros a legnépesebb?
+4) 20M lakos feletti nagyvárosok, népesség szerint csökkenő sorrendben.
+5) hány olyan ország van, ami több nagyávárossal is szerepel a listában?
+6) milyen betűvel kezdődik a legtöbb nagyváros neve?
